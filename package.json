@@ -1,0 +1,24 @@
+{
+  "name": "diamente",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "generateKeyPair": "node generatePair.mjs",
+    "createAccount": "node createAccount.js",
+    "checkBalance": "node checkBalance.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "diamante-sdk-js": "^1.0.3"
+  },
+  "type": "module"
+}
